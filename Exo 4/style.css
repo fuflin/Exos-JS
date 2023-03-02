@@ -1,0 +1,23 @@
+h2 {
+    font-size: xx-large;
+    font: bold;
+    color: darkred;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://cdn.futura-sciences.com/cdn-cgi/image/width=1920,quality=50,format=auto/sources/supernova_bleue_ESO_L._Calcada.jpg);
+}
+
+.carre {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.boite {
+    display: grid;
+    grid-template-columns: repeat(15, 0fr);
+    margin: auto;
+    justify-content: center;
+}

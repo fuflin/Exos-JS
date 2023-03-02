@@ -1,0 +1,45 @@
+h2 {
+    font-size: xx-large;
+    font: bold;
+    color: whitesmoke;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://www.astronomie-planete.com/images/fond-ecran-planete_6.jpg);
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: oldlace;
+    opacity: 20%;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.boxs {
+    display: grid;
+    /*met un objet en colonne*/
+    grid-template-columns: 0fr 0fr 0fr;
+    margin: auto;
+    justify-content: center;
+}
+
+.square img {
+    width: 100%;
+    z-index: 1;
+
+}
+
+#message {
+    font-size: large;
+    color: whitesmoke;
+
+}
