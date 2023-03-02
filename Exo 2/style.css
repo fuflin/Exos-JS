@@ -1,0 +1,36 @@
+/* Titre*/
+h2 {
+    font: bold;
+    text-align: center;
+}
+
+/*Objet : carré*/
+.square {
+    height: 200px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(136, 174, 136);
+    margin: 2px;
+    transition: all .6s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*fait une animation sur l'objet*/
+}
+
+/*contenaire du carré*/
+.boxs {
+    display: grid;
+    /*met un objet en colonne*/
+    grid-template-columns: 1fr 1fr;
+    width: 33%;
+    margin: auto;
+}
+
+/*animation*/
+.animate {
+    transform: rotate(360deg) scale(0.9);
+    /*fonction rotation(), rétrécissement() */
+    background-color: darkred;
+    transition: all .6s linear;
+}
